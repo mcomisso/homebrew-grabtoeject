@@ -2,8 +2,7 @@ cask "grab-to-eject" do
   version "1.0.2"
   sha256 "6bcc8f5a8ea2bb68fdab01d770fb25d5cd2e9a16b259be3d6e1c3e9de39135e2"
 
-  url "https://github.com/mcomisso/ShakeToEject/releases/download/v#{version}/ShakeToEject-#{version}.zip",
-      verified: "github.com/mcomisso/ShakeToEject/"
+  url "https://github.com/mcomisso/ShakeToEject/releases/download/v#{version}/ShakeToEject-#{version}.zip"
   name "Grab to Eject"
   desc "Safely ejects external drives when it detects you picking up your laptop"
   homepage "https://github.com/mcomisso/ShakeToEject"
